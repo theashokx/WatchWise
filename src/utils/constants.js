@@ -20,3 +20,5 @@ export const NOWPLAYING_URL =
   "https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1";
 
 export const VIDEOS_URL = "https://api.themoviedb.org/3/movie/";
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780";
