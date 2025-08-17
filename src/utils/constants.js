@@ -22,3 +22,9 @@ export const NOWPLAYING_URL =
 export const VIDEOS_URL = "https://api.themoviedb.org/3/movie/";
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780";
+
+export const supported_languages = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanish", name: "Spanish" },
+];
