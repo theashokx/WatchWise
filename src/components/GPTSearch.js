@@ -1,7 +1,7 @@
 import React from "react";
 import GptSearchBar from "./GptSearchBar";
 import GptMovieRecommendations from "./GptMovieRecommendations";
-import { BACKGROUND_URL, PHOTO_URL } from "../utils/constants";
+import { BACKGROUND_URL } from "../utils/constants";
 
 const GPTSearch = () => {
   return (
@@ -10,6 +10,7 @@ const GPTSearch = () => {
         <img src={BACKGROUND_URL} alt="background" />
       </div>
       <GptSearchBar />
+
       <GptMovieRecommendations />
     </div>
   );
